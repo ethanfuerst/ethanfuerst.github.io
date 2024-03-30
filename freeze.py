@@ -1,7 +1,6 @@
 from flask_frozen import Freezer
 from app import app
 
-# maybe change
 app.config["FREEZER_DESTINATION"] = "../docs"
 freezer = Freezer(app)
 
