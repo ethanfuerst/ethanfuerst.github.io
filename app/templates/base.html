@@ -1,0 +1,28 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}Tidbit Statistics{% endblock %}
+
+{% block navbar %}
+<html>
+  <link rel="stylesheet" href="/static/main.css">
+  <header class="header">
+    
+    <h1>
+      Tidbit Statistics
+    </h1>
+
+    <h2>
+      Ethan Fuerst's Portfolio
+    </h2>
+    
+    {% if show_url %}
+
+    <h3>
+      Click <a href="{{ url_for('index') }}">here</a> to go back to the home page
+    </h3>
+
+    {% endif %}
+
+  </header>
+</html>
+{% endblock %}
