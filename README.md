@@ -5,5 +5,6 @@ to run locally:
 flask run
 ```
 
-custom 404 page
-
+## to do
+ - gha for freezer
+ - custom 404 page
