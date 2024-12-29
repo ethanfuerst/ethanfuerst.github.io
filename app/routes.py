@@ -28,7 +28,7 @@ def imdb_ratings():
     )
 
 
-@app.route("/blog/<post_name>")
+@app.route("/blog/<post_name>.html")
 def blog_post(post_name):
     post_path = os.path.join(POSTS_DIR, f"{post_name}.md")
 
