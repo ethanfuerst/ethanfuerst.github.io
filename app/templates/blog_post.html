@@ -2,6 +2,7 @@
 
 {% block content %}
 <div class="header">
+    <p><a href="{{ url_for('blog') }}">&larr; Back to all blog posts</a></p>
     <h1>{{ title }}</h1>
     {% if date %}
     <p>{{ date }}</p>
@@ -10,5 +11,6 @@
 
 <div class="content">
     {{ content | safe }}
+<p><a href="{{ url_for('blog') }}">&larr; Back to all blog posts</a></p>
 </div>
 {% endblock %} 
