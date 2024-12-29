@@ -11,6 +11,12 @@
   border-bottom: black solid 10px;
 }
 
+body {
+  background-color: rgb(233, 233, 233);
+  margin: 0;
+  padding: 0;
+}
+
 .content {
   max-width: 1600px;
   margin: auto;
@@ -44,4 +50,71 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+}
+
+/* Additional styles for markdown content */
+.content pre {
+    background-color: lightgrey;
+    padding: 1rem;
+    margin: 1rem 0;
+    overflow-x: auto;
+}
+
+.content code {
+    background-color: lightgrey;
+    padding: 0.2rem 0.4rem;
+}
+
+.content blockquote {
+    background-color: lightgrey;
+    border-left: 4px solid rgb(122, 202, 228);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.content th,
+.content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.content th {
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.content tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.content tr:hover {
+    background-color: #ddd;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+}
+
+.content img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background: white;
+}
+
+.content hr {
+  border: none;
+  height: 2px;
+  background-color: black;
+  margin: 2rem 0;
 }

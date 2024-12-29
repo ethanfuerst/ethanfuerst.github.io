@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tidbit Statistics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<html>
+  <link rel="stylesheet" href="/static/main.css">
+  <header class="header">
+    
+    <h1>
+      Tidbit Statistics
+    </h1>
+
+    <h2>
+      Ethan Fuerst's Portfolio
+    </h2>
+    
+    
+
+    <h3>
+      Click <a href="/">here</a> to go back to the home page
+    </h3>
+
+    
+
+  </header>
+</html>
+
+    
+<div class="header">
+    <h1>I miss the NBA</h1>
+    
+    <p>2020-04-16</p>
+    
+</div>
+
+<div class="content">
+    <p>It was just over a month ago when <a href="https://twitter.com/wojespn/status/1237914166285008896">Adam Silver suspended the NBA season</a> after Rudy Gobert tested positive for COVID-19, but it feels like a year ago. I was watching Mavs-Nuggets at the time. <a href="https://twitter.com/espn/status/1237919525590441985">You could tell when Mark Cuban</a> found out the news. The two games that were going to take place later that night were called off.</p>
+
+<p>Ever since then, there's been an NBA-sized hole in our lives. I'm hoping to fill part of that hole right now. As I self-quarantine, I've been hard at work pulling NBA shot data and making shot charts of some of the most memorable performances and stretches of games in recent memory.</p>
+
+<p>There are two kind of shot charts in this post. The first shows all the shots taken by a player or a team and displays the made shots as green circles and the missed shots as red x's. I use these charts when I want to show a specific performance in one game. Only problem is, they don't show free throws. If it's important, I include that info below the graph.</p>
+
+<p>The second kind I call a hex chart. The size of the hexes represent how many shots were taken in that area and the color represents the points per shot, or efficiency. Areas on the court are grouped together and colored based on efficiency of that zone. It works best when there's a lot of shots, so this kind of chart is best to show multiple games or seasons together.</p>
+
+<p>Okay, let's dig in to some shot charts.</p>
+
+<hr />
+
+<h3>Kobe's 81-point game</h3>
+
+<p>Kobe had a lot of memorable NBA performances, (enough for a whole post) but I'll start with the time he scored the 2nd most points ever in a single game.</p>
+
+<p><img src="/static/images/4-17-20-kobe81.png" alt="Kobe" /></p>
+
+<p>This may not look like a lot of points, but here's the Toronto Raptors shotchart from that same game.</p>
+
+<p><img src="/static/images/4-17-20-raps.png" alt="Raps" /></p>
+
+<hr />
+
+<h3>Linsanity</h3>
+
+<p>Remember <a href="https://www.youtube.com/watch?v=OJa7G-AGgOE">Linsanity</a>?</p>
+
+<p><img src="/static/images/4-17-20-lin.png" alt="Linsanity" /></p>
+
+<p>For about a month and a half in 2012, Jeremy Lin was putting on a show. His layups were falling, he was shooting well from 3, and he was getting to the line. This stretch would be cut short by injury but it would live on in NBA history forever.</p>
+
+<hr />
+
+<h3>Klay Thompson: 60 points in 3 quarters while touching the ball for 90 seconds and taking 11 dribbles</h3>
+
+<p>It's a loaded title but that's really all there is to it. Just Klay Thompson, the professional sharpshooter, <a href="https://www.youtube.com/watch?v=M7cmvTGErJ4">doing what he does best</a>.</p>
+
+<p><img src="/static/images/4-17-20-klay.png" alt="Klay" /></p>
+
+<hr />
+
+<h3>When the 3-point shot betrayed the Rockets</h3>
+
+<p>Not much to say here besides live by the 3, die by the 3 I guess. Also, man, look at this <a href="https://digitalmarketing.temple.edu/rwalsh/2019/03/15/moreyball-and-its-effect-on-the-art-of-basketball/">Moreyball</a>!</p>
+
+<p><img src="/static/images/4-17-20-rockets.png" alt="Raps" /></p>
+
+<p>Houston fans: don't worry. You can always hold tight to your <a href="https://www.nytimes.com/2019/11/14/sports/baseball/astros-cheating-stealing-signs.html">totally legitimate sports championship</a> from just two years before!</p>
+
+<hr />
+
+<h3>Zion's first game</h3>
+
+<p>We all knew that Zion was going to be a force in the paint after dominating at Duke, but we didn't know he could shoot from outside the arc!</p>
+
+<p><img src="/static/images/4-17-20-zion.png" alt="Zion" /></p>
+
+<p>There's a Wendy's 4 for 4 joke in here somewhere. Zion's averaging 23.6 points on 29.7 minutes per game. <a href="https://www.youtube.com/watch?v=F_LiXpKanSo">He's playing aggressively on defense</a> and shooting 46.2% from 3. That's pretty much best case scenario for a 1st overall pick. I don't think he will win Rookie of the Year, (not a big enough sample size) but I can't wait to see what he accomplishes in his NBA career.</p>
+
+<hr />
+
+<h3>Tracy McGrady needed only 33 seconds to score 13 points</h3>
+
+<p>I can't really explain how crazy this is, <a href="https://www.youtube.com/watch?v=M-8FksMVAdU">you just need to watch it</a>.</p>
+
+<p><img src="/static/images/4-17-20-tmac.png" alt="tmac" /></p>
+
+<p>13 points in 33 seconds is .39 points a second, or 23.6 points a minute. That's pretty efficient.</p>
+
+<hr />
+
+<h3>And the 2019-20 NBA MVP goes to...</h3>
+
+<p>The whole NBA season, it looked like Giannis had a firm grasp on the MVP. But LeBron has made a late push in the last few weeks of the season.</p>
+
+<p><img src="/static/images/4-17-20-mvps.png" alt="mvps" /></p>
+
+<p>Who should be the MVP? I think I'll look more in to this in another post...</p>
+
+<hr />
+
+<h2>Conclusion</h2>
+
+<p>I still miss the NBA.</p>
+
+<p>There will be more NBA content to come, you can count on that.</p>
+
+</div>
+
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

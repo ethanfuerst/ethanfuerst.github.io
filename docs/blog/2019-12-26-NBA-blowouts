@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tidbit Statistics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<html>
+  <link rel="stylesheet" href="/static/main.css">
+  <header class="header">
+    
+    <h1>
+      Tidbit Statistics
+    </h1>
+
+    <h2>
+      Ethan Fuerst's Portfolio
+    </h2>
+    
+    
+
+    <h3>
+      Click <a href="/">here</a> to go back to the home page
+    </h3>
+
+    
+
+  </header>
+</html>
+
+    
+<div class="header">
+    <h1>Is it just me, or have there been a lot of 40-point blowouts in the NBA this season?</h1>
+    
+    <p>2019-12-26</p>
+    
+</div>
+
+<div class="content">
+    <p>I had a hunch that this year there have been more 40-point blowouts compared to the previous years. To look in to the data, I pulled game data from <a href="https://basketball-reference.com">basketball-reference.com</a>.</p>
+
+<p><img src="/static/images/12-26-19_1.png" alt="Chart of 40-point blowouts in the last 6 seasons" title="Chart of 40-point blowouts in the last 6 seasons" /></p>
+
+<p>In the last 5 seasons, there had been between 5-10 blowouts by 40 points. So far in this season, there had been 8 40-point blowouts, and if they continue at the current rate we would end with 21.</p>
+
+<p>Next I wanted to look at how many 20, 30 and 40-point blowouts there were each season in the last few seasons.</p>
+
+<p><img src="/static/images/12-26-19_2.png" alt="Chart of 20, 30 and 40-point blowouts in the last 6 seasons" title="Chart of 20, 30 and 40-point blowouts in the last 6 seasons" /></p>
+
+<p>Using the current season to project the rate of blowouts, there would be about the same amount of 20 and 30-point blowouts as the last 5 years, but more than twice as many 40-point blowouts.</p>
+
+<p>So what does the distribution of blowouts throughout the season look like? First I graphed 30-point blowouts.</p>
+
+<p><img src="/static/images/12-26-19_3.png" alt="Distribution of 30-point blowouts in the last 5 seasons" title="Distribution of 30-point blowouts in the last 5 seasons" /></p>
+
+<p>30-point blowouts are pretty evenly distributed, so this doesn't really tell us much.</p>
+
+<p>I'm more interested in the distribution of 40-point blowouts.</p>
+
+<p><img src="/static/images/12-26-19_4.png" alt="Distribution of 40-point blowouts in the last 5 seasons" title="Distribution of 40-point blowouts in the last 5 seasons" /></p>
+
+<p>I had some ideas why there would be more 40-point blowouts later or earlier in the season. It could be that good teams win by 40 in the beginning of the year to make a statement, or bad teams lose by 40 at the end of the year because they've given up.</p>
+
+<p>Either way, I wanted to find the projected rate of 40-point blowouts this season using the percent of blowouts in the past seasons at the current game mark. Basically, if this season's 'blowout rate' was the same as a past season's 'blowout rate', how many blowouts will this season have?</p>
+
+<p><img src="/static/images/12-26-19_5.png" alt="Projected 40-point blowouts this season using data from last 5 seasons" title="Projected 40-point blowouts this season using data from last 5 seasons" /></p>
+
+<p>Using the last 5 NBA seasons as a guide, we can expect the total number of 40-point blowouts this season to be between 18-21. This would be the most blowouts for a single season in the NBA since the ABA-NBA merger in 1976.</p>
+
+<h3>Count of 40-point blowouts since the '76 - '77 season</h3>
+
+<table>
+<thead>
+<tr>
+  <th style="text-align:left;">Season</th>
+  <th style="text-align:right;">Count of 40-pt blowouts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:left;">'19 - '20 (Maximum projection)</td>
+  <td style="text-align:right;">21</td>
+</tr>
+<tr>
+  <td style="text-align:left;">'19 - '20 (Minimum projection)</td>
+  <td style="text-align:right;">18</td>
+</tr>
+<tr>
+  <td style="text-align:left;">'88 - '89</td>
+  <td style="text-align:right;">13</td>
+</tr>
+<tr>
+  <td style="text-align:left;">'91 - '92</td>
+  <td style="text-align:right;">11</td>
+</tr>
+<tr>
+  <td style="text-align:left;">'17 - '18 and '94 - '95</td>
+  <td style="text-align:right;">10</td>
+</tr>
+<tr>
+  <td style="text-align:left;">'16 - '17</td>
+  <td style="text-align:right;">9</td>
+</tr>
+<tr>
+  <td style="text-align:left;">'19 - '20 (as of 12/26/19)</td>
+  <td style="text-align:right;">8</td>
+</tr>
+<tr>
+  <td style="text-align:left;">'07 - '08, '10 - '11, '96 - '97, '93 - '94, '92 - '93 and '78 - '79</td>
+  <td style="text-align:right;">8</td>
+</tr>
+</tbody>
+</table>
+
+<p>Data from <a href="https://basketball-reference.com">basketball-reference.com</a>.</p>
+
+<p>Charts made in python using pandas and matplotlib.</p>
+
+<p>Check out my code <a href="https://github.com/ethanfuerst/nba-projects/blob/main/notebooks/margin_of_victory.ipynb">here</a></p>
+
+</div>
+
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

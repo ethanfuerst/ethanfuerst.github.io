@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="header">
+    <h1>Blog Posts</h1>
+</div>
+
+<div class="content">
+    {% for post in posts %}
+    <article>
+        <h2>
+            <a href="{{ url_for('blog_post', post_name=post.slug) }}">{{ post.title }}</a>
+        </h2>
+        {% if post.date %}
+        <p>{{ post.date }}</p>
+        {% endif %}
+        {% if post.description %}
+        <p>{{ post.description }}</p>
+        {% endif %}
+    </article>
+    {% if not loop.last %}
+    <hr>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}

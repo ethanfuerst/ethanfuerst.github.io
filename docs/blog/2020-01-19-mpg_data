@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tidbit Statistics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<html>
+  <link rel="stylesheet" href="/static/main.css">
+  <header class="header">
+    
+    <h1>
+      Tidbit Statistics
+    </h1>
+
+    <h2>
+      Ethan Fuerst's Portfolio
+    </h2>
+    
+    
+
+    <h3>
+      Click <a href="/">here</a> to go back to the home page
+    </h3>
+
+    
+
+  </header>
+</html>
+
+    
+<div class="header">
+    <h1>How much can my car tell me with the data from the gas pump?</h1>
+    
+    <p>2020-01-19</p>
+    
+</div>
+
+<div class="content">
+    <p>When I got a new car in December of 2018, I knew that I had to do something with the data that I saw when I was pumping gas. Every time I filled up starting in January 2019, I recorded the number of miles I had driven, the number of gallons I pumped and the total cost of the gas.</p>
+
+<p>I recorded these three things in a .csv on my laptop. After I had recorded a few fillups, I cracked open a .py file and got to work. I used <a href="https://darksky.net/dev">DarkSky API</a> to pull in weather data as well. This gave me a chance to see how my miles per gallon was changing while the weather was changing as well.</p>
+
+<p>After a year of pulling data, I'm ready to report my findings!</p>
+
+<p><a href="https://github.com/ethanfuerst/mpg-dashboard">Here's a link</a> to the dashboard</p>
+
+<p><img src="/static/images/1-29-20-top.png" alt="Top of dashboard" title="Top of dashboard" /></p>
+
+<p>The first thing I noticed is that my miles per gallon during the summer is relatively consistent compared to my miles per gallon in the colder months. I think this is because over the summer I drove the same route to and from work every weekday. For the most part, I drove with the same speed with the same traffic. While school was in session, my driving wasn't as consistent. If I took a trip on the weekend, I would get better miles per gallon because I'd be on the highway the whole time. Maybe one week I had a lot of errands to run in the city, which means a lot of stopping and starting and lower miles per gallon.</p>
+
+<p><img src="/static/images/1-29-20-bleft.png" alt="Bottom left of dashboard" title="Bottom left of dashboard" /></p>
+
+<p>The bottom left chart shows my miles per gallon graphed against the number of miles I drove between the fillups. This is a positive linear relationship because when my car gets better miles per gallon, I don't need to stop for gas as often. I'd suspect that the fillups where I got really high miles per gallon are fillups where I was driving on the highway a lot.</p>
+
+<p><img src="/static/images/1-29-20-bright.png" alt="Bottom right of dashboard" title="Bottom right of dashboard" /></p>
+
+<p>The bottom right chart shows that as I drive more miles, I burn fuel more efficiently and I get lower dollars per mile - which is good! What's interesting to me is that I get better dollars per mile in the winter months. I asked a friend of mine who loves cars and engineering, and he said it's probably because of <a href="https://www.e-education.psu.edu/egee102/node/1942">thermodynamic efficiency</a>.</p>
+
+<p><img src="/static/images/1-29-20-equation.png" alt="The Carnot Efficiency Equation" title="The Carnot Efficiency Equation" /></p>
+
+<p>On the top of the equation (Q Hot - Q Cold) let's call that ΔT (as in change in temperature). The bottom, Q Hot, is constant because gas burns at a constant (or almost constant) temp. In the winter, the temperature is lower and ΔT is higher because cold air is heating up more compared to warmer air where it doesn't have to heat up as much. Because of the higher change in temperature, air expands more which means more power in same amount of gas. Literally more bang for your buck!</p>
+
+<p><img src="/static/images/1-29-20-page2.png" alt="Second dashboard" title="Second dashboard" /></p>
+
+<p>The next tab shows the moving average of the temperature graphed with the cost of a gallon of gas. I always had a feeling that gas prices rose as it got warmer, and this chart kind of shows that. It mainly shows that there is a crazy variation in the temperature in Austin, TX during the spring and winter - something I definitely already knew!</p>
+
+<p><a href="https://github.com/ethanfuerst/mpg_data">Here's the github repository</a> for this project.</p>
+
+<hr />
+
+<h3>Update (1/21/20)</h3>
+
+<p>I had been toying around with the idea of creating a table with the insights I had printed out when running mpg_refresh.py. But I finally but pen to paper, or fingers to keys, today and got it done.</p>
+
+<p><img src="/static/images/1-29-20-insights.png" alt="Insight Dashboard" title="Insight Dashboard" /></p>
+
+<p>This will be interesting to track every few times I fill up, especially the miles per gallon. Also, it's good to know how much it costs me to drive a mile. That's a cool insight!</p>
+
+</div>
+
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
