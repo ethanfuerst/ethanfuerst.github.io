@@ -1,10 +1,11 @@
 # ethanfuerst.github.io
 
-to run locally:
+To run locally:
 ```
 flask run
 ```
 
-## to do
- - gha for freezer
- - custom 404 page
+To Do:
+ - Deploy IMDb Ratings dashboard to Modal
+ - GitHub Action for freeze.py
+ - Custom 404 page
